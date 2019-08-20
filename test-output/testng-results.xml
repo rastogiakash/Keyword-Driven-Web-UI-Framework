@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32764" started-at="2019-08-20T09:59:52Z" finished-at="2019-08-20T10:00:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32764" started-at="2019-08-20T09:59:52Z" finished-at="2019-08-20T10:00:25Z">
+      <class name="com.qa.hs.tests.LoginTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.hs.tests.LoginTest@7d9d1a19]" name="setExtent" is-config="true" duration-ms="297" started-at="2019-08-20T09:59:52Z" finished-at="2019-08-20T09:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.hs.tests.LoginTest@7d9d1a19]" name="loginTest" duration-ms="21828" started-at="2019-08-20T09:59:52Z" finished-at="2019-08-20T10:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.hs.tests.LoginTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="11" started-at="2019-08-20T10:00:14Z" finished-at="2019-08-20T10:00:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:com.qa.hs.tests.LoginTest@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="signUpTest()[pri:0, instance:com.qa.hs.tests.LoginTest@7d9d1a19]" name="signUpTest" duration-ms="10906" started-at="2019-08-20T10:00:14Z" finished-at="2019-08-20T10:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.hs.tests.LoginTest@7d9d1a19]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T10:00:25Z" finished-at="2019-08-20T10:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpTest status=SUCCESS method=LoginTest.signUpTest()[pri:0, instance:com.qa.hs.tests.LoginTest@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:com.qa.hs.tests.LoginTest@7d9d1a19]" name="endExtent" is-config="true" duration-ms="408" started-at="2019-08-20T10:00:25Z" finished-at="2019-08-20T10:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- com.qa.hs.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
